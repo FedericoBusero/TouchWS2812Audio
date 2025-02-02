@@ -1,4 +1,4 @@
-from config import ledstrip_pin
+from config import ledstrip_pin,num_pixels
 import asyncio
 import neopixel
 
