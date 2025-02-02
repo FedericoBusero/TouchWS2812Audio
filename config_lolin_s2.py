@@ -2,7 +2,7 @@ import board
 import audiobusio
 import digitalio
 
-print("Hello world from boot.py")
+print("Hello world from config")
 
 #class audiobusio.I2SOut(bit_clock: microcontroller.Pin, word_select: microcontroller.Pin, data: microcontroller.Pin, *,
 # main_clock: microcontroller.Pin | None = None, left_justified: bool = False)
