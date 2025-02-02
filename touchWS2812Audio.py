@@ -1,12 +1,7 @@
 from config import *
-
-#import board
 import touchio
 import asyncio
 import neopixel
-#import keypad
-from rainbowio import colorwheel
-
 import digitalio
 from audiomp3 import MP3Decoder
 
