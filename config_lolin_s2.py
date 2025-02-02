@@ -9,6 +9,7 @@ print("Hello world from boot.py")
 
 audio_output = audiobusio.I2SOut(board.IO4, board.IO5, board.IO18)
 ledstrip_pin = board.IO16
+num_pixels = 8
 touch_pin = board.IO3
 
 led = digitalio.DigitalInOut(board.LED)
