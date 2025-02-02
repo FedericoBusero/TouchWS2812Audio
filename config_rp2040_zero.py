@@ -9,6 +9,7 @@ except ImportError:
 import neopixel
 
 ledstrip_pin = board.GP15
+num_pixels = 8
 audio_output = AudioOut(board.GP0)
 touch_pin = board.GP3
 
