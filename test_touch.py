@@ -1,5 +1,4 @@
 from config import *
-#import board
 import touchio
 import asyncio
 
