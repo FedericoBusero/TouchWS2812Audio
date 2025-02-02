@@ -10,7 +10,7 @@ ledstrip = neopixel.NeoPixel(ledstrip_pin, num_pixels, brightness=brightness, au
 async def fade_cycle(time_wait,time_delay,num):
     """Fade cycle animation on led strip."""
     for count in range(0, num):
-        print("rainbow_cycle",count)
+        print("led animation cycle",count)
         for j in range(0, 256, 1):
             for i in range(num_pixels):
                 ledstrip[i] = (j, 0, 0)
