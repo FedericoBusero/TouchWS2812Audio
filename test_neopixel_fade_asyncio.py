@@ -2,7 +2,6 @@ from config import ledstrip_pin
 import asyncio
 import neopixel
 
-num_pixels = 16  # The number of NeoPixels on a single ring.
 brightness = 0.2  # The LED brightness.
 
 # Set up NeoPixel ledstrip
