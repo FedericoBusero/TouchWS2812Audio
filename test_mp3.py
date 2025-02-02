@@ -8,7 +8,7 @@ import digitalio
 from audiomp3 import MP3Decoder
 
 # The listed mp3files will be played in order
-mp3files = ["slow.mp3", "happy.mp3"]
+mp3files = ["tardis.mp3"]
 
 # You have to specify some mp3 file when creating the decoder
 mp3 = open(mp3files[0], "rb")
