@@ -7,7 +7,6 @@ from audiomp3 import MP3Decoder
 
 mp3filename = "tardis.mp3"
 
-num_pixels = 8
 ledstrip = neopixel.NeoPixel(ledstrip_pin, num_pixels, brightness=0.2, auto_write=False)
 
 # Set up the touch input
